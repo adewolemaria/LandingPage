@@ -44,7 +44,8 @@ li a {
   text-align: center;
   font-weight: 300;
   color: white;
-  padding: 2% 6%;
+  padding: 0 6%;
+  padding-top: 2%;
   font-size: 50px;
 }
 
@@ -54,16 +55,50 @@ li a {
   color: white;
   padding: 0 30%;
 }
+.button {
+  padding: 3% 0;
+  text-align: center;
+}
+.myButton {
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+  border:1px solid #509DFB;
+  text-align: center;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+  padding:12px 31px;
+  box-shadow:0 2px 10px rgba(0,0,0,.2);
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
 .section_3 {
-  padding: 5% 2%;
+  padding: 5% 10%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .services_intro {
-  padding: 0 3%;
+  width: 500px;
 }
+
+.services_section {
+  padding: 7% 10% 10%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
 .card_1 {
   text-align: center;
   padding: 1% 1%;
@@ -72,7 +107,8 @@ li a {
   transition: 0.3s;
   width: 40%;
   background-color: #fff;
-  height: 45%;
+  height: 50%;
+  border-radius: 3%;
 }
 .fas {
   color: #509DFB;
@@ -93,6 +129,8 @@ li a {
 .container {
   padding: 10% 0;
 }
+
+
 
 .section_4_right {
   margin: 0;
@@ -121,10 +159,17 @@ li a {
 .section_5_flex {
   display: flex;
   flex-direction: row;
-  padding: 0 7%;
+  padding: 3% 15%;
 }
 .flex_5_items {
   padding: 0 10%;
+}
+
+.clients_imgs {
+  padding: 0 3%;
+  width: auto;
+  height: 100px;
+   filter: grayscale(1);
 }
 .section_6_text_section {
   padding: 1% 25%;
